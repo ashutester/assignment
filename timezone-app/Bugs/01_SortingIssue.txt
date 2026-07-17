@@ -1,0 +1,18 @@
+Title
+Table is not getting sorted by the timezones correctly.
+Steps to reproduce
+1. Open app and add a label as 'Vancouver Time' and add Pacific time from the dropdown below and click save.
+2. Click on the Add Timezone again and add label as 'Calgary time' and add Mountain timezone from dropdown and click save.
+3. Check the sort order of the table.
+4. Add a label as 'Hawai Time' and add Hawai time from the dropdown below and click save.
+
+Expected Result
+At step 3 Pacific time should be displayed right at the top in a table in a first row and then Calgagy time should be in a second row.
+After step 4, Hawai time should be displayed right at the top of the table. 
+
+Actual Result
+At step 3, Mountain time is displayed above pacific time.
+After step 4, Hawai is displayed right at the bottom instead of showing up at the top.
+
+Priority : High
+Severity : High

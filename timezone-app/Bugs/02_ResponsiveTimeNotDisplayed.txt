@@ -1,0 +1,13 @@
+Title
+Time column is not getting displayed on responsive web.(iPhone 14 pro max)
+
+Steps to reproduce
+1. Open Chrome with responsive setting set as iPhone 14 pro max.
+2. Navigate to Time keeper app and check if all the UI controls and elements are displayed.
+
+Actual Issue
+Time column is not displayed at all.
+Refer to the attached screenshot for more details.
+
+Priority : High (If there are lot of users of the application on Mobile Web)
+Severity : High

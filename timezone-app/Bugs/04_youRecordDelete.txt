@@ -1,0 +1,17 @@
+Title
+Local/Default record is getting deleted without showing any error message.
+
+Steps to reproduce
+1. Open App and delete Local(You) timezone record check if any error is getting displayed.
+2. Refresh the page and check if the deleted record still shows up.
+
+Expected Result
+Error should be displayed when user tries to delete Local(You record).
+User should not be able to delete the current timezone record.
+
+Actual Issue
+User is able to delete Local(You record) without showing any error though the record shows up after user refresh.
+
+Priority : Low
+Severity : Low
+

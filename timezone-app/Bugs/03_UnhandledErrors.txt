@@ -1,0 +1,16 @@
+Title
+There are lot of errors when user refreshes the page.
+
+Steps to reproduce
+1. Open the app and add a timezone record and delete it and refresh the page.
+
+Expected Result
+No errors should be displayed on the page. 
+Deleted record should not exist after refreshing.
+Actual Result
+There are lot of errors displayed in red toast message. Click on it to open it.
+Refer to the attached scrernshot for more details.
+
+
+Priority : Medium
+Severity : Medium
